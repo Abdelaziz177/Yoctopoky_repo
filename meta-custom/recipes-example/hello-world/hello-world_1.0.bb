@@ -1,7 +1,8 @@
 SUMMARY = "Simple Hello World application"
-LICENSE = "CLOSED"
-#LIC_FILES_CHKSUM = "file://LICENSE;md5=1c3a71ed227f3cbe5c7c37d03b7fcb56"
-SRC_URI = "file://hello.cpp"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=37bf9258ebe4c704b8bf0b1933b2ee44"
+SRC_URI = "file://hello.cpp \
+    file://LICENSE"
 
 
 S = "${WORKDIR}/sources-unpack"
